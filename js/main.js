@@ -1,8 +1,9 @@
 const userNumbers = [
     a = +prompt('Enter your fisrt number'),
     b = +prompt('Enter your second number'),
-    c = +prompt('Enter your Third number')
+    c = +prompt('Enter your third number')
 ];
+console.log(userNumbers);
 
 const userAverage = (numbers) => { 
     let sum = 0;
